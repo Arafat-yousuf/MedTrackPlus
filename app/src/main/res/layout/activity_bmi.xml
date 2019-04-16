@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".BMIActivity">
+
+
+    <!--<TextView
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmiq1"
+        android:textColor="@color/material_blue"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <RadioButton
+            android:id="@+id/malebuttonid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textStyle="bold"
+            />
+        <RadioButton
+            android:id="@+id/femalebuttonid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textStyle="bold"
+            />
+
+    </RadioGroup>
+    -->
+
+    <TextView
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmiq2"
+        android:textColor="@color/material_blue"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/weightid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="In kg"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmiq3"
+        android:textColor="@color/material_blue"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        />
+
+    <EditText
+        android:id="@+id/heightid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="In Meter"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/okbuttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="SUBMIT" />
+    
+    <TextView
+        android:id="@+id/resultid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/material_deep_purple"
+        android:layout_margin="20dp" />
+
+
+
+</LinearLayout>

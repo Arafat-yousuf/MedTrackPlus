@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MedTrack+</string>
+
+    //home page
+    <string name="option1">Medicine</string>
+    <string name="option2">BMI</string>
+    <string name="option3">Emergency</string>
+    <string name="option4">Feedback</string>
+    //bmi page
+    <string name="bmiq1">Select Your Gender</string>
+    <string name="bmiq2">Enter Your Weight</string>
+    <string name="bmiq3">Enter Your Height</string>
+    <string name="bmiq4">Your BMI :</string>
+
+    //emergency page
+    <string name="hospital">Hospital Numbers</string>
+    <string name="hospital1">Dhaka Medical College Hospital</string>
+    <string name="hospital1n1">0286266812</string>
+    <string name="hospital1n2">0286266813</string>
+    <string name="hospital1n3">0286266814</string>
+
+
+    <string name="ambulance">Ambulance Numbers</string>
+    <string name="ambulance1">Anju-Man-e Mufidul lslam </string>
+    <string name="ambulance1n1">029336611</string>
+    <string name="ambulance1n2">027411660</string>
+    <string name="ambulance1n3">027410786</string>
+
+    //add med page
+
+    <string name="medname">Medicine Name</string>
+    <string name="morn">How Many In Morning?</string>
+    <string name="noon">How Many In Noon?</string>
+    <string name="even">How Many In Evening?</string>
+
+
+
+    <string name="add">Add A New Medicine</string>
+    <string name="del">Delete A Medicine</string>
+    <string name="title">No\t\t\tName\t\t\t\t\t\t\t\t\t\tTime</string>
+
+
+</resources>
